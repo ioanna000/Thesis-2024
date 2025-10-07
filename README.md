@@ -1,5 +1,7 @@
 # Securing Local Network Access on Android
 
+The code is not fully published, just the main
+
 ## Overview
 
 This is an Android application designed to protect users' local networks by monitoring and controlling which applications can access devices on the local network. Unlike existing firewall solutions that block all internet access, this specifically focuses on local network traffic, giving users granular control over which apps can communicate with IoT devices, routers, and other local network resources.
