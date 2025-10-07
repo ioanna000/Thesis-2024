@@ -1,8 +1,8 @@
-# LocalVPN - Securing Local Network Access on Android
+# Securing Local Network Access on Android
 
 ## Overview
 
-LocalVPN is an Android application designed to protect users' local networks by monitoring and controlling which applications can access devices on the local network. Unlike existing firewall solutions that block all internet access, LocalVPN specifically focuses on local network traffic, giving users granular control over which apps can communicate with IoT devices, routers, and other local network resources.
+This is an Android application designed to protect users' local networks by monitoring and controlling which applications can access devices on the local network. Unlike existing firewall solutions that block all internet access, this specifically focuses on local network traffic, giving users granular control over which apps can communicate with IoT devices, routers, and other local network resources.
 
 ## Motivation
 
@@ -13,7 +13,7 @@ With the proliferation of IoT devices and smart home technology, local networks 
 - Sensitive data (MAC addresses, device models, geolocation) can be harvested
 - Routers can be attacked through DNS rebinding and other techniques
 
-LocalVPN addresses this gap by providing Android users with visibility and control over local network access.
+The application addresses this gap by providing Android users with visibility and control over local network access.
 
 ## Features
 
@@ -25,7 +25,7 @@ LocalVPN addresses this gap by providing Android users with visibility and contr
 
 ## How It Works
 
-LocalVPN leverages Android's `VpnService` API to create a virtual network interface that intercepts packets destined for private IP address ranges. When an application attempts to access the local network:
+The application leverages Android's `VpnService` API to create a virtual network interface that intercepts packets destined for private IP address ranges. When an application attempts to access the local network:
 
 1. The packet is captured by the VPN service
 2. The application is identified by its package name
@@ -43,7 +43,7 @@ LocalVPN leverages Android's `VpnService` API to create a virtual network interf
 
 ## Usage
 
-1. Launch the LocalVPN app
+1. Launch the The application app
 2. Grant VPN permission when prompted
 3. The VPN service starts automatically
 4. When an app attempts to access your local network, you'll receive a notification
@@ -61,8 +61,8 @@ The application has been tested on:
 ### Example Test Case
 
 Attempting to access a home router (192.168.x.x) through Chrome browser:
-- **Without LocalVPN**: Direct access to router login page
-- **With LocalVPN**: Notification appears; blocking prevents access while allowing normal internet browsing
+- **Without The application**: Direct access to router login page
+- **With The application**: Notification appears; blocking prevents access while allowing normal internet browsing
 
 ## Research Findings
 
@@ -142,12 +142,6 @@ If you use this work in academic research, please cite:
 }
 ```
 
-## Acknowledgments
-
-- Based on the [LocalVPN project](https://github.com/hexene/LocalVPN) by hexene et al.
-- Developed under the supervision of Professor Georgios Stamoulis
-- Committee members: Professor Ioannis Moondanos, Professor Mathy Vanhoef (KU Leuven)
-- Special thanks to PhD students Jeroen Robben and Angelos Beitis for their guidance
 
 ## References
 
