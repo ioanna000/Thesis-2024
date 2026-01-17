@@ -148,7 +148,7 @@ If you use this work in academic research, please cite:
 ## References
 
 For detailed information about local network security threats and Android permissions, see:
-- [Full Thesis Document](Gianni_Ioanna_thesis.pdf)
+- [Full Thesis Document](Gianni_ioanna_thesis.pdf)
 - [Android VPN Service Documentation](https://developer.android.com/develop/connectivity/vpn)
 - [iOS Local Network Privacy](https://support.apple.com/en-us/102229)
 
